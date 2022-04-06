@@ -4,6 +4,7 @@
 
 body {
   background-color: rgb(250, 178, 234);
+  background-image: linear-gradient(to left, rgb(250, 178, 234), rgb(250, 123, 144));
 }
 
 .page-area {
@@ -34,6 +35,7 @@ header {
   color: rgb(91, 27, 151);
   font-size: 40px;
   padding: 15px;
+  background-image: linear-gradient(to left, rgb(243 159 211), rgb(230, 100, 197));
 }
 nav {
   grid-area: nav;
@@ -42,6 +44,11 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+nav ul li:hover {
+  background-color: white;
+  transition: all 0.5s;
 }
 
 nav ul li a {
@@ -140,11 +147,12 @@ img.logo {
   grid-gap: 20 px;
   padding: 20px;
   margin: 0 auto;
-}
+  }
 .galeria-porcelana img, .galeria-crochet img, .galeria-dibujos img {
     width: 90%;
     height: 90%;
     border-radius: 80%;
+  
 }
 .section {
   grid-area:main;
@@ -157,6 +165,11 @@ img.logo {
 .contacto {
   grid-area: main;
 }
+
+.galeria-porcelana img:hover, .galeria-crochet img:hover, .galeria-dibujos img:hover {
+  opacity: 0.5;
+}
+
 
 @media only screen and (max-width: 768px){
    
