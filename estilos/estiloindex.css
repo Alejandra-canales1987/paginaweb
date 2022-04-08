@@ -176,6 +176,15 @@ img.logo {
   transition: all 0.5s;
 }
 
+
+.navbar * {
+  font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(91, 27, 151);
+}
+
 @media only screen and (max-width: 768px){
    
 .page-area {
@@ -257,4 +266,3 @@ img.logo {
     }
   
   }
-
