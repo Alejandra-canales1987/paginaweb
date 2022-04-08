@@ -185,6 +185,11 @@ img.logo {
   color: rgb(91, 27, 151);
 }
 
+.form-label {
+  color: rgb(91, 27, 151);
+  font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 768px){
    
 .page-area {
