@@ -213,10 +213,21 @@ img.logo {
   }
   
   
-  
   .imagenes img {
     width: 300px;
     height: 300px;
+  }
+
+  .main__container-image {
+    border-color: white;
+    border-width: 16px;
+    border-style: solid;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    background-color: rgb(230, 76, 148);
+    width: 30%;
+    height: auto;
+    margin: 10px;
   }
   
   .galeria-dibujos, .galeria-crochet, .galeria-porcelana {
@@ -269,6 +280,18 @@ img.logo {
     width: 200px;
     height: 200px;
   }
+
+  .main__container-image {
+    border-color: white;
+    border-width: 16px;
+    border-style: solid;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    background-color: rgb(230, 76, 148);
+    width: 30%;
+    height: auto;
+    margin: 10px;
+  }
   
   
   
@@ -286,11 +309,15 @@ img.logo {
   
   img.logo {
     border-radius: 50%;
-    max-height: 80px;
+    max-height: 70px;
     width: auto;
     display: inline-block;
     margin: 0 0.5rem;
     
+  }
+
+  .agranda {
+    font-size: 20px;
   }
   
 }
