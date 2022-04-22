@@ -231,7 +231,7 @@ p {
     font-size: 28px;
     display: grid;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
     margin: 0 auto;
@@ -300,7 +300,7 @@ p {
     font-size: 28px;
     display: grid;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
     margin: 0 auto;

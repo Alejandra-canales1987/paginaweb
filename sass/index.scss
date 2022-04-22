@@ -83,13 +83,14 @@ header {
 }
 
 .navbar {
-    font-size:1.2rem 
+    font-size:1.4rem; 
 }
 
 .navbar-light {
     .navbar-nav {
         display: flex;
         justify-content: center;
+        gap: 10px;
         .nav-link {
             color: $color-letra2;
             &:hover {
@@ -218,13 +219,13 @@ p {
         margin: 10px;
     }
     
-    .galeria-porcelana, .galeria-dibujos, .galeria-crochet {
+    .galeria-dibujos, .galeria-crochet, .galeria-porcelana {
         grid-area: main;
         margin: 5px auto;
         font-size: 28px;
         display: grid;
         grid-template-rows: repeat(2, auto);
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap:20px;
         padding:20px;
         margin: 0 auto;
@@ -312,13 +313,13 @@ p {
         
     }
     
-    .galeria-porcelana, .galeria-crochet, .galeria-dibujos {
+    .galeria-dibujos, .galeria-crochet, .galeria-porcelana {
         grid-area: main;
         margin: 5px auto;
         font-size: 28px;
         display: grid;
         grid-template-rows: repeat(2, auto);
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap:20px;
         padding:20px;
         margin: 0 auto;
