@@ -16,7 +16,7 @@
     }
 }
 
-.galeria-porcelana, .galeria-crochet, .galeria-dibujos {
+.galeria-porcelana  {
     grid-area: main;
     margin: 5px auto;
     font-size: 28px;
@@ -37,6 +37,11 @@
         opacity:0.5;
     }
     
+}
+
+.galeria-crochet, .galeria-dibujos {
+    @extend .galeria-porcelana; 
+
 }
 
 .imagenes {

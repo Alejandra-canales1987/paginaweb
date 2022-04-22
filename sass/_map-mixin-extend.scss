@@ -1,0 +1,27 @@
+@use "sass:map";
+
+$ColoresPrincipales: (
+    "Base": rgb(250, 178, 234),
+    "ContenedorPrincipal": rgb(230, 76, 148),
+    "ColorBoton": rgb(138, 54, 155),
+);
+
+body {
+    background-color: map.get($ColoresPrincipales, "Base");
+}
+
+@mixin btn($background-color) {
+    display: inline-block;
+    padding: 10px;
+    border: $ColorBorde;
+    font-family: $TipodeFuente;
+    background-color: $background-color;
+}
+.btn-primary {
+    @include btn(rgb(138,54, 155));
+}
+
+
+
+
+
