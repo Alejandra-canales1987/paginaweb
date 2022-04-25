@@ -43,7 +43,8 @@
 }
 
 .galeria-crochet, .galeria-dibujos {
-    @extend .galeria-porcelana; 
+    @extend .galeria-porcelana;
+    grid-gap:25px;
 
 }
 
