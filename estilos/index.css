@@ -70,7 +70,7 @@ body {
 }
 
 body {
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-image: linear-gradient(to left, rgb(250, 178, 234), rgb(250, 123, 144));
 }
 
