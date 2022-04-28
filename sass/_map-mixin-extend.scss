@@ -3,7 +3,7 @@
 $ColoresPrincipales: (
     "Base": rgb(250, 178, 234),
     "ContenedorPrincipal": rgb(230, 76, 148),
-    "ColorBoton": rgb(138, 54, 155),
+    "ColorBoton": rgb(221, 92, 247),
 );
 
 body {
@@ -18,7 +18,7 @@ body {
     background-color: $background-color;
 }
 .btn-primary {
-    @include btn(rgb(138,54, 155));
+    @include btn(rgb(189, 28, 221));
 }
 
 
