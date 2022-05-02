@@ -108,7 +108,7 @@ header {
 }
 
 .form-label {
-    color: $color-letra;
+    color: $color-letra2;
     font-size: 1.5rem;
 }
 
@@ -121,14 +121,17 @@ footer {
     grid-area:footer;
     
     ul {
-        color: $color-letra;
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
         font-size:2.0rem;
         
         
         li {
             list-style-type: none;
+
+            a {
+                color: $color-letra2;
+            }
         }
     }
     
